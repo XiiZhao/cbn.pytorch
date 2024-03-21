@@ -27,7 +27,7 @@
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | CBN | ResNet18 | N | 90.1 | 79.1 | 84.5 | [config](cbn_r18_tt.py) |
 | CBN | MobileNetv3 | N | 87.6 | 78.1 | 82.5 | [config](cbn_mobilev3_tt.py) |
-| CBN | ResNet18 | Y(MLT) | 89.3 | 85.2 | 87.2 | [config](cbn_r18_tt_finetune_ic19.py) |
+| CBN | ResNet18 | Y(MLT19) | 89.3 | 85.2 | 87.2 | [config](cbn_r18_tt_finetune_ic19.py) |
 
 - MSRA-TD500
 
@@ -35,7 +35,7 @@
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | CBN | ResNet18 | N | 83.8 | 80.8 | 82.3 | [config](cbn_r18_msra.py) |
 | CBN | MobileNetv3 | N | 82.3 | 79.1 | 80.6 | [config](cbn_mobilev3_msra.py) |
-| CBN | ResNet18 | Y(MLT) | 93.2 | 86.4 | 89.7 | [config](cbn_r18_msra_finetune_ic19.py) |
+| CBN | ResNet18 | Y(MLT19) | 93.2 | 86.4 | 89.7 | [config](cbn_r18_msra_finetune_ic19.py) |
 
 - ICDAR2015
 
