@@ -1,0 +1,53 @@
+model = dict(
+    type='CBN',
+    backbone=dict(
+        type='resnet18',
+        pretrained=True
+    ),
+    neck=dict(
+        type='FPEM_v1',
+        in_channels=(64, 128, 256, 512),
+        out_channels=128
+    ),
+    detection_head=dict(
+        type='CBN_Head',
+        in_channels=512,
+        hidden_dim=128,
+        num_classes=6,
+        loss_text=dict(
+            type='DiceLoss',
+            loss_weight=1.0
+        ),
+        loss_kernel=dict(
+            type='DiceLoss',
+            loss_weight=0.5
+        ),
+        loss_emb=dict(
+            type='EmbLoss_v1',
+            feature_dim=4,
+            loss_weight=0.25
+        ),
+        loss_distance=dict(
+            type='RatioLoss',
+            loss_weight=0.25
+        )
+    )
+)
+data = dict(
+    batch_size=88,
+    train=dict(
+        type='CBN_Synth',
+        is_transform=True,
+        img_size=640,
+        short_size=640,
+        kernel_scale=0.5,
+        read_type='cv2'
+    )
+)
+train_cfg = dict(
+    lr=1e-3,
+    #schedule='polylr',
+    schedule='fixlr',
+    epoch=1,
+    optimizer='Adam'
+)

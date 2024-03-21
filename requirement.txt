@@ -1,0 +1,10 @@
+mmcv
+opencv-python
+editdistance
+Polygon3
+pyclipper
+Cython
+scipy
+matplotlib
+shapely==1.7.1
+pillow
