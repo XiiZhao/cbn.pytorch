@@ -5,7 +5,7 @@ Official PyTorch implementation of "CBNet: A Plug-and-Play Network for Segmentat
 ![](overview.png)
 
 ## News
-- (2024/03/21)  Code and models are released.
+- (2024/03/21)  Code is released.
 
 ## Installation
 
