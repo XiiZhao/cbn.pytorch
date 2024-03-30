@@ -31,7 +31,7 @@ cbn.pytorch
 
 These datasets can be downloaded from the following links:
 
-- [CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector), [train_images](https://universityofadelaide.box.com/shared/static/py5uwlfyyytbb2pxzq9czvu6fuqbjdh8.zip)[train_annos](https://universityofadelaide.box.com/shared/static/jikuazluzyj4lq6umzei7m2ppmt3afyw.zip) ,[test_images](https://universityofadelaide.box.com/shared/static/t4w48ofnqkdw7jyc4t11nsukoeqk9c3d.zip),[test_annos](https://cloudstor.aarnet.edu.au/plus/s/uoeFl0pCN9BOCN5) 
+- [CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector), [train_images](https://universityofadelaide.box.com/shared/static/py5uwlfyyytbb2pxzq9czvu6fuqbjdh8.zip),[train_annos](https://universityofadelaide.box.com/shared/static/jikuazluzyj4lq6umzei7m2ppmt3afyw.zip) ,[test_images](https://universityofadelaide.box.com/shared/static/t4w48ofnqkdw7jyc4t11nsukoeqk9c3d.zip),[test_annos](https://cloudstor.aarnet.edu.au/plus/s/uoeFl0pCN9BOCN5) 
 
 - [Total-Text](https://github.com/cs-chan/Total-Text-Dataset), [images](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Dataset),[gts-.mat](https://drive.google.com/file/d/19quCaJGePvTc3yPZ7MAGNijjKfy77-ke/view?usp=sharing)
 
