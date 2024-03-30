@@ -31,9 +31,9 @@ cbn.pytorch
 
 These datasets can be downloaded from the following links:
 
-- CTW1500 [[dataset]](https://1drv.ms/u/s!Aplwt7jiPGKilH4XzZPoKrO7Aulk)
+- [CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector), [train_images](https://universityofadelaide.box.com/shared/static/py5uwlfyyytbb2pxzq9czvu6fuqbjdh8.zip)[train_annos](https://universityofadelaide.box.com/shared/static/jikuazluzyj4lq6umzei7m2ppmt3afyw.zip) ,[test_images](https://universityofadelaide.box.com/shared/static/t4w48ofnqkdw7jyc4t11nsukoeqk9c3d.zip),[test_annos](https://cloudstor.aarnet.edu.au/plus/s/uoeFl0pCN9BOCN5) 
 
-- Total-Text [[image]](https://drive.google.com/file/d/1bC68CzsSVTusZVvOkk7imSZSbgD1MqK2/view?usp=sharing) [[gt]](https://drive.google.com/file/d/19quCaJGePvTc3yPZ7MAGNijjKfy77-ke/view?usp=sharing)
+- [Total-Text](https://github.com/cs-chan/Total-Text-Dataset), [images](https://github.com/cs-chan/Total-Text-Dataset/tree/master/Dataset),[gts-.mat](https://drive.google.com/file/d/19quCaJGePvTc3yPZ7MAGNijjKfy77-ke/view?usp=sharing)
 
 - MSRA-TD500 [[dataset]](http://www.iapr-tc11.org/dataset/MSRA-TD500/MSRA-TD500.zip)
 - HUST-TR400 [[dataset]](http://mc.eistar.net/UpLoadFiles/dataset/HUST-TR400.zip)
